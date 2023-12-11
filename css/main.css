@@ -163,7 +163,7 @@ text-align: left;
  }
     
  .background-container {
-    background-image: url('/img/Mask group (4).jpg'); 
+    background-image: url('../img/Mask group (4).jpg'); 
     background-size: cover;
     background-position: bottom;
     height: 680px; 

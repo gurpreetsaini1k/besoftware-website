@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -5,7 +8,7 @@
     font-weight: 500;
     letter-spacing: -0.2px;
     line-height: normal;
-    font-size: 16px;
+    font-size: 18px;
     color: #3F3F3F;
 }
 .navbar .navbar-nav .nav-link:hover {
@@ -20,35 +23,70 @@
     padding-left: 20px;
 }
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 10;
+    width: 100%;
+
+
 }
 .navbar {
     background-color: white;
-    box-shadow: 0px 4px 8.4px -2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 15.4px 9px rgba(0, 0, 0, 0.10);
+    border-radius: 100px;
+    margin: 20px 40px 20px;
 }
 .navbar .btn-primary{
     font-size: 20px;
     border-radius: 3px;
-    background-color: #25AAE2;
+    background-color: #D6E11F;
     border: none;
     font-weight: 500;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    color: #3F3F3F;
 }
 .navbar .btn-primary:hover{
-    font-size: 20px;
-    border-radius: 3px;
-    background-color: #25AAE2;
-    border: none;
-    font-weight: 500;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: #D6E11F;
+  border: none;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+  color: #3F3F3F;
+}
+.btn-main {
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: #D6E11F;
+  border: none;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+  color: #3F3F3F;
+}
+.btn-main:hover {
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: #D6E11F;
+  border: none;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+  color: #3F3F3F;
 }
 .centered {
     position: absolute;
@@ -125,10 +163,10 @@ text-align: left;
  }
     
  .background-container {
-    background-image: url('../img/bg.png'); 
+    background-image: url('/img/Mask group (4).jpg'); 
     background-size: cover;
     background-position: bottom;
-    height: 500px; 
+    height: 680px; 
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -138,15 +176,16 @@ text-align: left;
   }
 
 .centered-heading {
-    font-weight: 400;
-    font-size: 54px;
-    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 58px;
+    color: #ffffff;
     line-height: 64px;
   }
 
 .centered-subheading {
-    font-size: 20px;
+    font-size: 24px;
     color: #25AAE2;
+    color: white;
   }
 .Global_heading {
     font-weight: 400;
